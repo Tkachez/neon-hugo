@@ -1,14 +1,9 @@
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
++++
+date = 2024-02-02T04:14:54-08:00
+draft = false
+title = 'Example'
+weight = 10
+[params]
+  author = 'John Smith'
++++
 
-Alternatively, for H1 and H2, an underline-ish style:
-
-Alt-H1
-======
-
-Alt-H2
-------
