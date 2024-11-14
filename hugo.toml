@@ -1,4 +1,11 @@
-baseURL = 'https://neon-hugo.onrender.com/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+[build]
+  noJSConfigInAssets = false
+  useResourceCacheWhen = 'fallback'
+  [build.buildStats]
+    disableClasses = false
+    disableIDs = false
+    disableTags = false
+    enable = false
+  [[build.cacheBusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = '(css|styles|scss|sass)'
